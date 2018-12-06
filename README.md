@@ -21,3 +21,7 @@ Módulo para Inserção da Funcionalidade "Lista de Filmes Favoritos" (Em desenv
 
 ![captura de tela_2018-12-06_13-43-44](https://user-images.githubusercontent.com/39272194/49601928-54400280-f96e-11e8-8fd5-9f8cef6b16a1.png)
 
+![captura de tela_2018-12-06_16-05-25](https://user-images.githubusercontent.com/39272194/49602958-f7921700-f970-11e8-933e-1e2110112c18.png)
+
+![captura de tela_2018-12-06_16-05-49](https://user-images.githubusercontent.com/39272194/49602962-fc56cb00-f970-11e8-8973-98d9686e4d56.png)
+
