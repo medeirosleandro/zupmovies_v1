@@ -19,6 +19,9 @@ Módulo para Inserção da Funcionalidade "Lista de Filmes Favoritos" (Em desenv
 
 ![captura de tela_2018-12-06_16-32-28](https://user-images.githubusercontent.com/39272194/49604756-e1d32080-f975-11e8-9aed-988eeb5a36c9.png)
 
+FILME LAGOA AZUL REMOVIDO
+
+![captura de tela_2018-12-06_16-44-23](https://user-images.githubusercontent.com/39272194/49604958-6625a380-f976-11e8-942f-650eeb0ee400.png)
 
 
 
