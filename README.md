@@ -13,7 +13,7 @@ App para busca de Informações de Filmes disponíveis na API Omdb http://www.om
 ![captura de tela_2018-12-05_21-52-21](https://user-images.githubusercontent.com/39272194/49552929-aa646580-f8dc-11e8-8e4f-2f0abf963c2e.png)
 
 # Módulo "Lista de Filmes Favoritos"
-Módulo para Inserção da Funcionalidade "Lista de Filmes Favoritos" (Em desenvolvimento), já é possivel verificar funcionalidade de adicionar a lista (Botão ADD) e remover via Clicke sobre o Item.
+Módulo para Inserção da Funcionalidade "Lista de Filmes Favoritos" (Em desenvolvimento), já é possivel verificar funcionalidade de adicionar a lista (Botão ADD) e remover via evento de Click sobre o Item.
 
 ![captura de tela_2018-12-06_13-42-46](https://user-images.githubusercontent.com/39272194/49601915-4be7c780-f96e-11e8-83ab-d6a7efffb136.png)
 
