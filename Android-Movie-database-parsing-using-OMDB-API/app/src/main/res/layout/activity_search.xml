@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_search"
+    tools:context="br.leandro.com.zupmovies.SearchActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/logozup"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/text_round"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:hint="Insira o Titulo"
+        android:layout_below="@+id/imageView6"
+        android:textSize="20dp"
+        android:fontFamily="@font/montserrat_regular" />
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+
+        android:text="Pesquisar"
+        android:textSize="30dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editText"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold" />
+
+</RelativeLayout>

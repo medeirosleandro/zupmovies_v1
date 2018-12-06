@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.leandro.com.zupmovies.Services">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="br.leandro.com.zupmovies.Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.leandro.com.zupmovies.DetailActivity"
+            android:label="Detalhe"
+            android:parentActivityName="br.leandro.com.zupmovies.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.leandro.com.zupmovies.MainActivity" />
+        </activity>
+        <activity
+            android:name="br.leandro.com.zupmovies.SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name="br.leandro.com.zupmovies.MainActivity"
+            android:parentActivityName="br.leandro.com.zupmovies.SearchActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.leandro.com.zupmovies.SearchActivity" />
+        </activity>
+    </application>
+
+</manifest>
